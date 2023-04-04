@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BF790E83-3E5B-410A-83C7-E7FB9B40C6CE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70E30DC0-40C4-47A2-B1B5-90218AA08DCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodDelivery/Modules/MainMenu/View/CityDisplayView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CityDisplayView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "70E30DC0-40C4-47A2-B1B5-90218AA08DCF - 757965336ebd4744"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodDelivery.CityDisplayView.imageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "FoodDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olgacuprik/FoodDelivery/FoodDelivery/FoodDelivery/Modules/MainMenu/View/CityDisplayView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "70E30DC0-40C4-47A2-B1B5-90218AA08DCF - 82be1117e1416b78"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodDelivery.CityDisplayView.imageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "FoodDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olgacuprik/FoodDelivery/FoodDelivery/FoodDelivery/Modules/MainMenu/View/CityDisplayView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "70E30DC0-40C4-47A2-B1B5-90218AA08DCF - dc98141b34c72249"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodDelivery.CityDisplayView.imageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "FoodDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olgacuprik/FoodDelivery/FoodDelivery/FoodDelivery/Modules/MainMenu/View/CityDisplayView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "70E30DC0-40C4-47A2-B1B5-90218AA08DCF - 6a80e2f58e6955ba"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodDelivery.CityDisplayView.imageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "FoodDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olgacuprik/FoodDelivery/FoodDelivery/FoodDelivery/Modules/MainMenu/View/CityDisplayView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "70E30DC0-40C4-47A2-B1B5-90218AA08DCF - bfad8338cc1f0f3a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodDelivery.CityDisplayView.init(frame: __C.CGRect) -&gt; FoodDelivery.CityDisplayView"
+                  moduleName = "FoodDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olgacuprik/FoodDelivery/FoodDelivery/FoodDelivery/Modules/MainMenu/View/CityDisplayView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "199">
+               </Location>
+               <Location
+                  uuid = "70E30DC0-40C4-47A2-B1B5-90218AA08DCF - c70592f645151f54"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodDelivery.CityDisplayView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;FoodDelivery.CityDisplayView&gt;"
+                  moduleName = "FoodDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olgacuprik/FoodDelivery/FoodDelivery/FoodDelivery/Modules/MainMenu/View/CityDisplayView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "520991F3-3B9B-4B41-805B-74D65A5FC505"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodDelivery/Modules/MainMenu/Interactor/MainMenuInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "loadInitialData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB329A37-43E8-430E-BEDF-CDAD8A2064B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodDelivery/Modules/MainMenu/View/MainMenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "scrollViewDidScroll(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C7DA338-166F-4445-BAC8-141080B677EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodDelivery/Modules/MainMenu/View/MainMenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
