@@ -34,12 +34,19 @@ class GroupsCollectionViewCell: UICollectionViewCell {
     }
 
     private func configureGroupView() {
-        groupView.layer.borderWidth = 1
-        groupView.layer.cornerRadius = 20
+        groupView.layer.borderWidth = Constants.borderWidth
+        groupView.layer.cornerRadius = Constants.cornerRadius
         groupView.layer.borderColor = UIColor(named: "lineColor_withAlpha")?.cgColor
     }
 
     func configureCell(text: String) {
         groupLabel.text = text
+    }
+
+// MARK: - Constants
+    
+    private enum Constants {
+        static let borderWidth = CGFloat(1)
+        static let cornerRadius = CGFloat(20)
     }
 }

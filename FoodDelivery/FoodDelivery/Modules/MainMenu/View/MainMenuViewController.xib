@@ -14,7 +14,7 @@
                 <outlet property="bannersCollectionView" destination="Mdj-Hp-N5q" id="VD5-7i-DBM"/>
                 <outlet property="groupsCollectionView" destination="L7h-mo-afv" id="FOj-lw-csn"/>
                 <outlet property="menuTableView" destination="LfZ-0u-PHO" id="kz4-RR-UPD"/>
-                <outlet property="tableVIewConstraint" destination="I6C-Yx-98K" id="TZa-cT-tyt"/>
+                <outlet property="tableViewConstraint" destination="I6C-Yx-98K" id="ELI-b5-qEG"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

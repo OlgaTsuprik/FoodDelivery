@@ -23,7 +23,7 @@ class MainMenuViewController: UIViewController, MainMenuViewInput {
     @IBOutlet weak var groupsCollectionView: UICollectionView!
     @IBOutlet weak var menuTableView: UITableView!
 
-    @IBOutlet weak var tableVIewConstraint: NSLayoutConstraint!
+    @IBOutlet weak var tableViewConstraint: NSLayoutConstraint!
 
 // MARK: - Methods
 
@@ -53,7 +53,6 @@ class MainMenuViewController: UIViewController, MainMenuViewInput {
             UINib(nibName: "GroupsCollectionViewCell", bundle: nil),
             forCellWithReuseIdentifier: "GroupsCollectionViewCell"
         )
-        //self.groupsCollectionView.isUserInteractionEnabled = true
 
         setupTableViewDelegate()
         output.loadInitialData()
@@ -61,19 +60,29 @@ class MainMenuViewController: UIViewController, MainMenuViewInput {
 
     func setupTableViewDelegate() {
         if menuTableView.isTracking || menuTableView.isDragging || menuTableView.isDecelerating {
-            tableVIewConstraint.constant = 104
+            tableViewConstraint.constant = CGFloat(Constants.tableViewConstraint)
         }
     }
 
     func displayProductModel(model: [[ProductModel]]) {
         self.model = model
     }
+
+// MARK: - Constants
+
+    private enum Constants {
+        static let tableViewConstraint = CGFloat(104)
+        static let bannerSize = CGSize(width: 300, height: 112)
+        static let groupsCellSize = CGSize(width: 96, height: 80)
+        static let tablecontentOffset = CGFloat(140)
+        static let contentSize = CGFloat(220)
+    }
 }
 
 extension MainMenuViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        var itemsCount: Int = 0
+        var itemsCount: Int = .zero
         if collectionView == bannersCollectionView {
             itemsCount = banners.banners.count
         } else if collectionView == groupsCollectionView {
@@ -94,7 +103,7 @@ extension MainMenuViewController: UICollectionViewDelegate, UICollectionViewData
             let groupsCell = groupsCollectionView.dequeueReusableCell(withReuseIdentifier: "GroupsCollectionViewCell", for: indexPath) as! GroupsCollectionViewCell
             let groupItems = ["Pizza", "Desserts"]
             groupsCell.configureCell(text: groupItems[indexPath.row])
-            if indexPath.row == 0 {
+            if indexPath.row == .zero {
                 groupsCell.isSelected = true
             }
             else {
@@ -108,19 +117,19 @@ extension MainMenuViewController: UICollectionViewDelegate, UICollectionViewData
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if collectionView == bannersCollectionView {
-            return CGSize(width: 300, height: 112)
+            return Constants.bannerSize
         } else {
-            return CGSize(width: 96, height: 80)
+            return Constants.groupsCellSize
         }
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        0
+        .zero
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == groupsCollectionView {
-            let index = IndexPath(row: 0, section: indexPath.row)
+            let index = IndexPath(row: .zero, section: indexPath.row)
             menuTableView.scrollToRow(at: index, at: .top, animated: true)
             }
         }
@@ -146,8 +155,8 @@ extension MainMenuViewController: UITableViewDelegate, UITableViewDataSource, UI
     }
 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        if menuTableView.contentOffset.y <= 140 {
-            tableVIewConstraint.constant = 220 - menuTableView.contentOffset.y
+        if menuTableView.contentOffset.y <= Constants.tablecontentOffset {
+            tableViewConstraint.constant = Constants.contentSize - menuTableView.contentOffset.y
         }
     }
 }

@@ -29,8 +29,8 @@ class MenuTableViewCell: UITableViewCell {
 
     private func configureButton() {
         buyButton.titleLabel?.textColor = UIColor(named: "lineColor")
-        buyButton.layer.borderWidth = 1
-        buyButton.layer.cornerRadius = 6
+        buyButton.layer.borderWidth = Constants.borderWidth
+        buyButton.layer.cornerRadius = Constants.cornerRadius
         buyButton.layer.borderColor = UIColor(named: "lineColor")?.cgColor
     }
 
@@ -39,5 +39,12 @@ class MenuTableViewCell: UITableViewCell {
         self.productIngridientsLabel.text = model.description
         self.buyButton.titleLabel?.text = "\(model.price) $"
         self.productImage.downloadedFrom(link: model.img)
+    }
+
+// MARK: - Constants
+
+    private enum Constants {
+        static let cornerRadius: CGFloat = 6
+        static let borderWidth: CGFloat = 1
     }
 }

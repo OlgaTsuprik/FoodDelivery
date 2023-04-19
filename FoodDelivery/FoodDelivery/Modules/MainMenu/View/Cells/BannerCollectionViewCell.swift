@@ -20,6 +20,12 @@ class BannerCollectionViewCell: UICollectionViewCell {
 
     func configureCell(banner: Banner) {
         self.bannerImage.image = banner.image
-        self.bannerImage.layer.cornerRadius = 10
+        self.bannerImage.layer.cornerRadius = Constants.cornerRadius
+    }
+
+// MARK: - Constants
+
+    private enum Constants {
+        static let cornerRadius: CGFloat = 10
     }
 }
